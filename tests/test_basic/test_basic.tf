@@ -14,7 +14,7 @@ locals {
 ##### TESTS #####
 
 module "basic" {
-  source = "../.."
+  source = "../../module"
 
   zoneName  = local.zoneName
   domainTag = local.domainTag
